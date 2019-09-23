@@ -1,0 +1,7 @@
+version: "2"
+domain: mandragor.org
+repo: github.com/yannh/k8s-happy-ip
+resources:
+- group: happyip
+  version: v1
+  kind: Interface
